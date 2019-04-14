@@ -1,0 +1,69 @@
+114:15:38：1 开始测试打印：{
+  "labName": "en_mac01.lab",
+  "barCodeList": [
+    {
+      "EN1": "ENNC201909000000001",
+      "MAC1": "MACC20188801",
+      "EN2": "ENNC201909000000002",
+      "MAC2": "MACC20188802",
+      "EN3": "ENNC201909000000003",
+      "MAC3": "MACC20188803",
+      "EN4": "ENNC201909000000004",
+      "MAC4": "MACC20188804",
+      "ProName": "EPON ONU",
+      "ProModel": "FHR1100GZB",
+      "Qty": "50PCS",
+      "ProBatchNo": "2019030001",
+      "SerialNo": "04",
+      "Total": "40Box",
+      "ProDate": "2019/03"
+    }
+  ]
+}
+214:15:57：2 连接服务器失败！
+114:44:31：1 开始测试打印：{
+  "labName": "en_mac01.lab",
+  "barCodeList": [
+    {
+      "EN1": "ENNC201909000000001",
+      "MAC1": "MACC20188801",
+      "EN2": "ENNC201909000000002",
+      "MAC2": "MACC20188802",
+      "EN3": "ENNC201909000000003",
+      "MAC3": "MACC20188803",
+      "EN4": "ENNC201909000000004",
+      "MAC4": "MACC20188804",
+      "ProName": "EPON ONU",
+      "ProModel": "FHR1100GZB",
+      "Qty": "50PCS",
+      "ProBatchNo": "2019030001",
+      "SerialNo": "04",
+      "Total": "40Box",
+      "ProDate": "2019/03"
+    }
+  ]
+}
+214:44:49：2 连接服务器失败！
+114:45:25：1 开始测试打印：{
+  "labName": "en_mac01.lab",
+  "barCodeList": [
+    {
+      "EN1": "ENNC201909000000001",
+      "MAC1": "MACC20188801",
+      "EN2": "ENNC201909000000002",
+      "MAC2": "MACC20188802",
+      "EN3": "ENNC201909000000003",
+      "MAC3": "MACC20188803",
+      "EN4": "ENNC201909000000004",
+      "MAC4": "MACC20188804",
+      "ProName": "EPON ONU",
+      "ProModel": "FHR1100GZB",
+      "Qty": "50PCS",
+      "ProBatchNo": "2019030001",
+      "SerialNo": "04",
+      "Total": "40Box",
+      "ProDate": "2019/03"
+    }
+  ]
+}
+214:45:43：2 连接服务器失败！

@@ -1,0 +1,13 @@
+114:46:57：1 服务器链接成功
+214:48:09：2 开始测试打印：{
+  "labName": "sn_mac_single.lab",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC",
+      "ProName": "EPON ONU",
+      "ProModel": "FHR1100",
+      "ProVoltage": "12V=0.5A"
+    }
+  ]
+}

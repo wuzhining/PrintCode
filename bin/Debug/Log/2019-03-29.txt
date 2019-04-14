@@ -1,0 +1,496 @@
+110:21:47：1 服务器链接成功
+210:21:51：2 System.Net.Sockets.SocketException (0x80004005): 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+310:22:00：3 连接中……
+410:22:00：4 服务器链接成功
+510:22:34：5 System.Net.Sockets.SocketException (0x80004005): 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+114:29:24：1 服务器链接成功
+214:53:14：2 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+314:53:14：3 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+414:53:14：4 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+514:53:14：5 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+614:53:14：6 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+714:53:14：7 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+814:53:14：8 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+914:53:14：9 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1014:53:14：10 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1114:53:14：11 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1214:53:14：12 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1314:53:14：13 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1414:53:14：14 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1514:53:15：15 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1614:53:15：16 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1714:53:15：17 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1814:53:15：18 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+1914:53:15：19 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2014:53:15：20 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2114:53:15：21 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2214:53:15：22 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2314:53:15：23 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2414:53:15：24 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2514:53:15：25 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2614:53:15：26 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2714:53:15：27 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2814:53:15：28 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+2914:53:15：29 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3014:53:15：30 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3114:53:15：31 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3214:53:15：32 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3314:53:15：33 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3414:53:15：34 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3514:53:15：35 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3614:53:16：36 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3714:53:16：37 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3814:53:16：38 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+3914:53:16：39 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4014:53:16：40 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4114:53:16：41 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4214:53:16：42 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4314:53:16：43 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4414:53:16：44 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4514:53:16：45 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4614:53:16：46 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4714:53:16：47 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4814:53:16：48 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+4914:53:16：49 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5014:53:17：50 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5114:53:17：51 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5214:53:17：52 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5314:53:17：53 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5414:53:17：54 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5514:53:17：55 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5614:53:17：56 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5714:53:17：57 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5814:53:17：58 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+5914:53:17：59 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6014:53:17：60 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6114:53:17：61 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6214:53:17：62 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6314:53:17：63 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6414:53:17：64 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6514:53:17：65 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6614:53:17：66 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6714:53:17：67 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6814:53:17：68 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+6914:53:17：69 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7014:53:18：70 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7114:53:18：71 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7214:53:18：72 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7314:53:18：73 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7414:53:18：74 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7514:53:18：75 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7614:53:18：76 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7714:53:18：77 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7814:53:18：78 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+7914:53:18：79 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8014:53:18：80 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8114:53:18：81 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8214:53:18：82 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8314:53:18：83 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8414:53:18：84 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8514:53:18：85 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8614:53:18：86 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8714:53:18：87 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8814:53:18：88 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+8914:53:18：89 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9014:53:18：90 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9114:53:18：91 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9214:53:19：92 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9314:53:19：93 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9414:53:19：94 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9514:53:19：95 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9614:53:19：96 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9714:53:19：97 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9814:53:19：98 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+9914:53:19：99 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10014:53:19：100 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10114:53:19：101 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10214:53:19：102 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10314:53:19：103 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10414:53:19：104 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10514:53:19：105 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10614:53:19：106 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10714:53:19：107 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10814:53:19：108 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+10914:53:19：109 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11014:53:19：110 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11114:53:19：111 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11214:53:19：112 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11314:53:19：113 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11414:53:20：114 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11514:53:20：115 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11614:53:20：116 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11714:53:20：117 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11814:53:20：118 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+11914:53:20：119 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+12014:53:20：120 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+12114:53:20：121 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93
+12214:53:20：122 System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 d:\安装\iplant_BarCodePrint_new\main.cs:行号 93

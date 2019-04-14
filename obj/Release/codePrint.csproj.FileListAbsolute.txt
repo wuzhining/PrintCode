@@ -1,0 +1,16 @@
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\bin\Release\codeprint.exe.config
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\bin\Release\codeprint.exe
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\bin\Release\codeprint.pdb
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\bin\Release\Newtonsoft.Json.dll
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\bin\Release\Interop.LabelManager2.dll
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\obj\Release\Interop.LabelManager2.dll
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\obj\Release\codePrint.csproj.ResolveComReference.cache
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\obj\Release\iplant_BarCodePrint.mainUI.resources
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\obj\Release\CodePrint.Properties.Resources.resources
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\obj\Release\codePrint.csproj.GenerateResource.Cache
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\obj\Release\codeprint.exe
+E:\project\codeprint\codePrint1123\iplant_BarCodePrint\obj\Release\codeprint.pdb
+C:\Users\wuzhiming\Documents\Tencent Files\271652993\FileRecv\codePrint1123\iplant_BarCodePrint\bin\Release\codeprint.exe.config
+C:\Users\wuzhiming\Documents\Tencent Files\271652993\FileRecv\codePrint1123\iplant_BarCodePrint\obj\Release\codePrint.csproj.ResolveComReference.cache
+C:\Users\wuzhiming\Documents\Tencent Files\271652993\FileRecv\codePrint1123\iplant_BarCodePrint\obj\Release\codeprint.exe
+C:\Users\wuzhiming\Documents\Tencent Files\271652993\FileRecv\codePrint1123\iplant_BarCodePrint\obj\Release\codeprint.pdb
