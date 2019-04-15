@@ -43,6 +43,10 @@
             this.lab_FinishLabCnt = new System.Windows.Forms.Label();
             this.btnPrintTest = new System.Windows.Forms.Button();
             this.btnClearLog = new System.Windows.Forms.Button();
+            this.cbSingle = new System.Windows.Forms.CheckBox();
+            this.cbMany = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.labCopies = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox_adder
@@ -84,12 +88,12 @@
             // log
             // 
             this.log.CausesValidation = false;
-            this.log.Location = new System.Drawing.Point(7, 105);
+            this.log.Location = new System.Drawing.Point(7, 119);
             this.log.Multiline = true;
             this.log.Name = "log";
             this.log.ReadOnly = true;
             this.log.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.log.Size = new System.Drawing.Size(555, 294);
+            this.log.Size = new System.Drawing.Size(555, 280);
             this.log.TabIndex = 10;
             // 
             // bt_connectServer
@@ -176,12 +180,56 @@
             this.btnClearLog.UseVisualStyleBackColor = true;
             this.btnClearLog.Click += new System.EventHandler(this.btnClearLog_Click);
             // 
+            // cbSingle
+            // 
+            this.cbSingle.AutoSize = true;
+            this.cbSingle.Location = new System.Drawing.Point(118, 87);
+            this.cbSingle.Name = "cbSingle";
+            this.cbSingle.Size = new System.Drawing.Size(48, 16);
+            this.cbSingle.TabIndex = 22;
+            this.cbSingle.Text = "单列";
+            this.cbSingle.UseVisualStyleBackColor = true;
+            this.cbSingle.CheckedChanged += new System.EventHandler(this.CheckBox_CheckedChanged);
+            // 
+            // cbMany
+            // 
+            this.cbMany.AutoSize = true;
+            this.cbMany.Location = new System.Drawing.Point(202, 87);
+            this.cbMany.Name = "cbMany";
+            this.cbMany.Size = new System.Drawing.Size(48, 16);
+            this.cbMany.TabIndex = 23;
+            this.cbMany.Text = "多列";
+            this.cbMany.UseVisualStyleBackColor = true;
+            this.cbMany.CheckedChanged += new System.EventHandler(this.CheckBox_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(17, 88);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 12);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "每行标签：";
+            // 
+            // labCopies
+            // 
+            this.labCopies.AutoSize = true;
+            this.labCopies.Location = new System.Drawing.Point(238, 42);
+            this.labCopies.Name = "labCopies";
+            this.labCopies.Size = new System.Drawing.Size(41, 12);
+            this.labCopies.TabIndex = 25;
+            this.labCopies.Text = "copies";
+            // 
             // mainUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(570, 425);
+            this.Controls.Add(this.labCopies);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.cbMany);
+            this.Controls.Add(this.cbSingle);
             this.Controls.Add(this.btnClearLog);
             this.Controls.Add(this.btnPrintTest);
             this.Controls.Add(this.lab_FinishLabCnt);
@@ -221,6 +269,10 @@
         private System.Windows.Forms.Label lab_FinishLabCnt;
         private System.Windows.Forms.Button btnPrintTest;
         private System.Windows.Forms.Button btnClearLog;
+        private System.Windows.Forms.CheckBox cbSingle;
+        private System.Windows.Forms.CheckBox cbMany;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labCopies;
     }
 }
 

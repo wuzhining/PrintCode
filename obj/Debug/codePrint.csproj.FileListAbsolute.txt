@@ -85,7 +85,7 @@ E:\share\打印程序\iplant_BarCodePrint_new\bin\Debug\codeprint.exe
 E:\share\打印程序\iplant_BarCodePrint_new\bin\Debug\codeprint.pdb
 E:\share\打印程序\iplant_BarCodePrint_new\bin\Debug\Newtonsoft.Json.dll
 E:\share\打印程序\iplant_BarCodePrint_new\bin\Debug\Interop.LabelManager2.dll
-E:\share\打印程序\iplant_BarCodePrint_new\obj\Debug\codePrint.csprojResolveAssemblyReference.cache
 E:\share\打印程序\iplant_BarCodePrint_new\obj\Debug\iplant_BarCodePrint.mainUI.resources
 E:\share\打印程序\iplant_BarCodePrint_new\obj\Debug\CodePrint.Properties.Resources.resources
 E:\share\打印程序\iplant_BarCodePrint_new\obj\Debug\codePrint.csproj.GenerateResource.Cache
+E:\share\打印程序\iplant_BarCodePrint_new\obj\Debug\codePrint.csprojResolveAssemblyReference.cache

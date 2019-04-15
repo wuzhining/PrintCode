@@ -34,8 +34,9 @@ namespace iplant_BarCodePrint
         private Thread threadTCP;
         private Thread threadPrint;
         LabelManager2.Document doc = null;
-        private string labName="labelname";
+        private string labName = "labelname";
         private string confPath;
+        private int copies = 1;
         private LabelManager2.ApplicationClass appClass;
         public mainUI()
         {
@@ -44,10 +45,10 @@ namespace iplant_BarCodePrint
             readConf();
             initThread();
             updateUI();
+            //this.log.AppendText("正在连接服务器，请稍候...");
+            addListItemText("正在连接服务器，请稍候...");
         }
         private void initThread()
-
-
         {
             threadPrint = new Thread(new ThreadStart(doPrint));
             threadPrint.Start();
@@ -123,6 +124,7 @@ namespace iplant_BarCodePrint
             {
                 JObject obj = JObject.Parse(data.ToString().TrimEnd('\0'));
                 labName = (string)obj["labName"];
+                //copies = (int)obj["copies"];
                 JArray array = (JArray)obj["barCodeList"];
                 this.unFinishLabCnt = array.Count;
                 updateUI();
@@ -133,7 +135,7 @@ namespace iplant_BarCodePrint
                 addListItemText(e.ToString());
             }
         }
-        #region 打印条码 
+        #region 打印条码
         private void PrintBarcode(JArray array)
         {
             string strRptFile = confPath + "\\" + labName;
@@ -156,17 +158,29 @@ namespace iplant_BarCodePrint
                 {
                     foreach (var item in jobj)
                     {
-                        doc.Variables.Item(item.Key).Value = item.Value.ToString(); 
+                        if (doc.Variables.Item(item.Key)!=null)
+                        {
+                            doc.Variables.Item(item.Key).Value = item.Value.ToString();
+                        }
                     }
-                    //doc.PrintLabel(1);
                     doc.Printer.SwitchTo(printerName);//条码信息发送至打印机
-                    doc.PrintDocument(1);
+
+                    //调用博斯特打印机使用printLable函数打印：‘一行单列’的标签会出现左右偏移的现象，故而用printDocument函数打印‘一行单列’的标签
+                    //而使用printDocument函数打印：‘一行多列’的标签时，只会打印一行中指定数量的标签，不会自动填充剩余的空白标签，故而使用printLable函数打印‘一行多列’的标签
+                    if (this.cbSingle.Checked == true)
+                    {
+                        doc.PrintDocument(copies);
+                    }
+                    if (this.cbMany.Checked == true)
+                    {
+                        doc.PrintLabel(copies);
+                    }
 
                     unFinishLabCnt--;
                     finishLabCnt++;
                     updateUI();
                 }
-                docRpt.FormFeed();//开始打印，打印完自动结束
+                docRpt.FormFeed();//打印完自动结束
             }
             catch (Exception err)
             {
@@ -187,7 +201,7 @@ namespace iplant_BarCodePrint
         //连接按钮
         private void bt_connectServer_Click(object sender, EventArgs e)
         {
-            
+
             if (this.bt_connectServer.Text == "断开")
             {
                 try
@@ -195,7 +209,8 @@ namespace iplant_BarCodePrint
                     socketClient.Close();
                     threadTCP.Abort();
                 }
-                catch {
+                catch
+                {
                     Console.Write("socket close failed!!!!");
                 }
                 this.bt_connectServer.Text = "连接";
@@ -203,8 +218,8 @@ namespace iplant_BarCodePrint
             }
             else if (this.bt_connectServer.Text == "连接")
             {
-                addListItemText("连接中……");
-                
+                addListItemText("正在连接服务器，请稍候...");
+
                 IPAddress ipRemote;
                 try
                 {
@@ -222,18 +237,21 @@ namespace iplant_BarCodePrint
         public void addListItemText(string msg)
         {
             logCount++;
-            WriteLog(logCount.ToString()+ " "+msg);
+            WriteLog(logCount.ToString() + " " + msg);
             //Console.Write("{0}\n",msg);
             System.DateTime now = System.DateTime.Now;
-            this.log.AppendText(logCount.ToString()+" " +now.ToLocalTime().ToString() + ":  " + msg + "\n");
+            this.log.AppendText(logCount.ToString() + " " + now.ToLocalTime().ToString() + ":  " + msg + "\n");
         }
         //设置初始值
         private void initVal()
         {
             CheckForIllegalCrossThreadCalls = false;
             //logDirPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\iplant\\codeprint\\Log";
+
+            //this.cbSingle.Checked = true;
+            this.cbMany.Checked = true;
             logDirPath = System.Windows.Forms.Application.StartupPath + "\\Log";
-            confPath = System.Windows.Forms.Application.StartupPath + "\\conf";  
+            confPath = System.Windows.Forms.Application.StartupPath + "\\conf";
         }
         private void closeingWindow(object sender, FormClosingEventArgs e)
         {
@@ -281,8 +299,8 @@ namespace iplant_BarCodePrint
             {
                 using (StreamWriter sw = File.AppendText(logPath))
                 {
-                    
-                    sw.WriteLine(logCount.ToString()+now.ToString("HH:mm:ss：") + msg);
+
+                    sw.WriteLine(logCount.ToString() + now.ToString("HH:mm:ss：") + msg);
                     sw.Flush();
                     sw.Close();
                     sw.Dispose();
@@ -292,7 +310,7 @@ namespace iplant_BarCodePrint
             {
                 using (StreamWriter sw = File.AppendText(logPath))
                 {
-                    sw.WriteLine( now.ToString("yyy-MM-dd HH:mm:ss") + e.Message);
+                    sw.WriteLine(now.ToString("yyy-MM-dd HH:mm:ss") + e.Message);
                     sw.Flush();
                     sw.Close();
                     sw.Dispose();
@@ -387,14 +405,16 @@ namespace iplant_BarCodePrint
             this.lab_UnFinishLabCnt.Text = unFinishLabCnt.ToString();
             this.lab_FinishLabCnt.Text = finishLabCnt.ToString();
             this.lab_FileName.Text = labName;
+            this.labCopies.Text = "1式" + copies + "份";
         }
 
         private void btnPrintTest_Click(object sender, EventArgs e)
         {
             JArray jarray = new JArray();
-            JObject data=new JObject();
+            JObject data = new JObject();
             JObject obj = new JObject();
 
+            /*sn_mac_single.lab*/
             //for (int i = 1; i < 26; i++)
             //{
             //    obj.Add("SN" + i, "38AS201909" + (i < 10 ? "0" + i : i.ToString()));
@@ -405,31 +425,39 @@ namespace iplant_BarCodePrint
             //obj.Add("Qty", "25PCS");
             //obj.Add("CartonNo", "001");
 
-            //obj.Add("SN","201903010722");
-            //obj.Add("MAC","2057AF1380AC");
+            obj.Add("SN", "201903010722");
+            obj.Add("MAC", "2057AF1380AC");
             //obj.Add("ProName", "EPON ONU");
             //obj.Add("ProModel", "FHR1100");
             //obj.Add("ProVoltage","12V=0.5A");
 
-            for (int i = 1; i < 5; i++)
-            {
-                obj.Add("EN" + i, "ENNC2019090000000" + (i < 10 ? "0" + i : i.ToString()));
-                obj.Add("MAC" + i, "MACC201888" + (i < 10 ? "0" + i : i.ToString()));
-            }
-            obj.Add("ProName", "EPON ONU");
-            obj.Add("ProModel", "FHR1100GZB");
-            obj.Add("Qty", "50PCS");
-            obj.Add("ProBatchNo", "2019030001");
-            obj.Add("SerialNo", "04");
-            obj.Add("Total", "40Box");
-            obj.Add("ProDate", "2019/03");
+            /*en_mac01.lab*/
+            //for (int i = 1; i < 5; i++)
+            //{
+            //    obj.Add("EN" + i, "ENNC2019090000000" + (i < 10 ? "0" + i : i.ToString()));
+            //    obj.Add("MAC" + i, "MACC201888" + (i < 10 ? "0" + i : i.ToString()));
+            //}
+            //obj.Add("ProName", "EPON ONU");
+            //obj.Add("ProModel", "FHR1100GZB");
+            //obj.Add("Qty", "50PCS");
+            //obj.Add("ProBatchNo", "2019030001");
+            //obj.Add("SerialNo", "04");
+            //obj.Add("Total", "40Box");
+            //obj.Add("ProDate", "2019/03");
 
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    obj.RemoveAll();
+            //    obj.Add("EN", "ENNC20190900000" + i);
             jarray.Add(obj);
+            //}
 
-            //data.Add("labName","sn_mac_single.lab");
-            data.Add("labName", "en_mac01.lab");
-            data.Add("barCodeList",jarray);
-            addListItemText("开始测试打印："+data.ToString());
+            data.Add("labName", "sn_mac_single.lab");
+            //data.Add("labName", "en_mac01.lab");
+            //data.Add("labName", "EN4034002097.lab");
+            data.Add("copies", "3");
+            data.Add("barCodeList", jarray);
+            addListItemText("开始测试打印：" + data.ToString());
             Thread testThread = new Thread(new ParameterizedThreadStart(BeforePirnt));
             testThread.Start(data.ToString());
         }
@@ -437,6 +465,29 @@ namespace iplant_BarCodePrint
         private void btnClearLog_Click(object sender, EventArgs e)
         {
             log.Clear();
+        }
+
+        private void CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (this.ActiveControl != null)
+                {
+                    switch (this.ActiveControl.Name)
+                    {
+                        case "cbSingle":
+                            this.cbMany.Checked = this.cbSingle.Checked == true ? false : true;
+                            break;
+                        case "cbMany":
+                            this.cbSingle.Checked = this.cbMany.Checked == true ? false : true;
+                            break;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
     }
