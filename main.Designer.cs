@@ -45,8 +45,10 @@
             this.btnClearLog = new System.Windows.Forms.Button();
             this.cbSingle = new System.Windows.Forms.CheckBox();
             this.cbMany = new System.Windows.Forms.CheckBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.labCopies = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cbLabType = new System.Windows.Forms.ComboBox();
+            this.tbLabName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox_adder
@@ -88,7 +90,7 @@
             // log
             // 
             this.log.CausesValidation = false;
-            this.log.Location = new System.Drawing.Point(7, 119);
+            this.log.Location = new System.Drawing.Point(8, 119);
             this.log.Multiline = true;
             this.log.Name = "log";
             this.log.ReadOnly = true;
@@ -127,7 +129,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(16, 64);
+            this.label5.Location = new System.Drawing.Point(17, 64);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(101, 12);
             this.label5.TabIndex = 14;
@@ -183,7 +185,7 @@
             // cbSingle
             // 
             this.cbSingle.AutoSize = true;
-            this.cbSingle.Location = new System.Drawing.Point(118, 87);
+            this.cbSingle.Location = new System.Drawing.Point(224, 90);
             this.cbSingle.Name = "cbSingle";
             this.cbSingle.Size = new System.Drawing.Size(48, 16);
             this.cbSingle.TabIndex = 22;
@@ -194,22 +196,13 @@
             // cbMany
             // 
             this.cbMany.AutoSize = true;
-            this.cbMany.Location = new System.Drawing.Point(202, 87);
+            this.cbMany.Location = new System.Drawing.Point(278, 90);
             this.cbMany.Name = "cbMany";
             this.cbMany.Size = new System.Drawing.Size(48, 16);
             this.cbMany.TabIndex = 23;
             this.cbMany.Text = "多列";
             this.cbMany.UseVisualStyleBackColor = true;
             this.cbMany.CheckedChanged += new System.EventHandler(this.CheckBox_CheckedChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 88);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 12);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "每行标签：";
             // 
             // labCopies
             // 
@@ -220,14 +213,46 @@
             this.labCopies.TabIndex = 25;
             this.labCopies.Text = "copies";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(16, 90);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 12);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "标签类型：";
+            // 
+            // cbLabType
+            // 
+            this.cbLabType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbLabType.FormattingEnabled = true;
+            this.cbLabType.Items.AddRange(new object[] {
+            "MAC标签",
+            "SN/EN标签",
+            "箱号标签"});
+            this.cbLabType.Location = new System.Drawing.Point(91, 87);
+            this.cbLabType.Name = "cbLabType";
+            this.cbLabType.Size = new System.Drawing.Size(121, 20);
+            this.cbLabType.TabIndex = 27;
+            this.cbLabType.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // tbLabName
+            // 
+            this.tbLabName.Location = new System.Drawing.Point(357, 85);
+            this.tbLabName.Name = "tbLabName";
+            this.tbLabName.Size = new System.Drawing.Size(120, 21);
+            this.tbLabName.TabIndex = 28;
+            // 
             // mainUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(570, 425);
+            this.Controls.Add(this.tbLabName);
+            this.Controls.Add(this.cbLabType);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.labCopies);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.cbMany);
             this.Controls.Add(this.cbSingle);
             this.Controls.Add(this.btnClearLog);
@@ -271,8 +296,10 @@
         private System.Windows.Forms.Button btnClearLog;
         private System.Windows.Forms.CheckBox cbSingle;
         private System.Windows.Forms.CheckBox cbMany;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label labCopies;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cbLabType;
+        private System.Windows.Forms.TextBox tbLabName;
     }
 }
 

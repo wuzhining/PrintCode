@@ -18,6 +18,7 @@ using System.Runtime.Serialization;
 using System.Configuration;
 //using LabelManager2;
 using System.Data.OleDb;
+using System.Text.RegularExpressions;
 
 
 namespace iplant_BarCodePrint
@@ -43,10 +44,11 @@ namespace iplant_BarCodePrint
             InitializeComponent();
             initVal();
             readConf();
-            initThread();
             updateUI();
             //this.log.AppendText("正在连接服务器，请稍候...");
             addListItemText("正在连接服务器，请稍候...");
+            initThread();
+            this.cbLabType.SelectedIndex = 0;
         }
         private void initThread()
         {
@@ -98,7 +100,7 @@ namespace iplant_BarCodePrint
                         if (String.Equals(System.Text.Encoding.UTF8.GetString(result, receiveLength - 5, receiveLength).TrimEnd('\0').Trim(), "}]}"))
                         {
                             builder.Append(msg);
-                            addListItemText("接收到打印请求：" + builder);
+                            //addListItemText("接收到打印请求：" + builder);
 
                             Thread testThread = new Thread(new ParameterizedThreadStart(BeforePirnt));
                             testThread.Start(builder.ToString());
@@ -126,9 +128,52 @@ namespace iplant_BarCodePrint
                 labName = (string)obj["labName"];
                 //copies = (int)obj["copies"];
                 JArray array = (JArray)obj["barCodeList"];
-                this.unFinishLabCnt = array.Count;
-                updateUI();
-                PrintBarcode(array);
+
+                if (labName.Length > 0)
+                {
+                    Regex regex = null;
+                    switch (this.cbLabType.Text)
+                    {
+                        case "MAC标签":
+                            regex = new Regex(@"SN_MAC{1,1}[A-Z0-9^._\x22]+$", RegexOptions.IgnoreCase);
+                            if (!regex.IsMatch(labName))
+                            {
+                                addListItemText("检测到非mac标签打印请求，已忽略.");
+                                return;
+                            }
+                            break;
+                        case "EN标签":
+                            regex = new Regex(@"(EN|SN)[A-Z0-9^._\x22]+$", RegexOptions.IgnoreCase);
+                            if (!regex.IsMatch(labName))
+                            {
+                                addListItemText("检测到非en标签打印请求，已忽略.");
+                                return;
+                            }
+                            //不包含字符串“mac”
+                            regex = new Regex(@"^((?!mac).)*$");
+                            if (!regex.IsMatch(labName))
+                            {
+                                addListItemText("检测到非en标签打印请求，已忽略.");
+                                return;
+                            }
+                            break;
+                        case "箱号标签":
+                            regex = new Regex(@"^[en_mac{6}A-Z0-9^._\x22]+$", RegexOptions.IgnoreCase);
+                            if (!regex.IsMatch(labName))
+                            {
+                                addListItemText("检测到非箱号标签打印请求，已忽略.");
+                                return;
+                            }
+                            break;
+                        default:
+                            addListItemText("未选择标签类型！");
+                            return;
+                    }
+                    addListItemText("接收到打印请求：" + obj.ToString());
+                    this.unFinishLabCnt = array.Count;
+                    updateUI();
+                    PrintBarcode(array);
+                }
             }
             catch (Exception e)
             {
@@ -158,7 +203,7 @@ namespace iplant_BarCodePrint
                 {
                     foreach (var item in jobj)
                     {
-                        if (doc.Variables.Item(item.Key)!=null)
+                        if (doc.Variables.Item(item.Key) != null)
                         {
                             doc.Variables.Item(item.Key).Value = item.Value.ToString();
                         }
@@ -248,8 +293,16 @@ namespace iplant_BarCodePrint
             CheckForIllegalCrossThreadCalls = false;
             //logDirPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\iplant\\codeprint\\Log";
 
-            //this.cbSingle.Checked = true;
-            this.cbMany.Checked = true;
+            //this.cbMany.Checked = true;
+            //默认勾选单列，默认两个选项都不可见
+            this.cbSingle.Checked = true;
+            this.cbSingle.Visible = false;
+            this.cbMany.Visible = false;
+            //this.cbLabType.SelectedIndex = 0;
+
+            //
+            //this.cbLabType.DropDownStyle = ComboBox.DropDownStyle.DropDownList();
+
             logDirPath = System.Windows.Forms.Application.StartupPath + "\\Log";
             confPath = System.Windows.Forms.Application.StartupPath + "\\conf";
         }
@@ -452,8 +505,10 @@ namespace iplant_BarCodePrint
             jarray.Add(obj);
             //}
 
-            data.Add("labName", "sn_mac_single.lab");
-            //data.Add("labName", "en_mac01.lab");
+            //data.Add("labName", "sn_mac_single.lab");
+            //data.Add("labName", "ns1100022563.lab");
+            data.Add("labName", this.tbLabName.Text.ToString());
+            //data.Add("labName", "en_mac001.lab");
             //data.Add("labName", "EN4034002097.lab");
             data.Add("copies", "3");
             data.Add("barCodeList", jarray);
@@ -487,6 +542,47 @@ namespace iplant_BarCodePrint
             catch (Exception)
             {
                 throw;
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (this.cbLabType.Text)
+            {
+                case "MAC标签":
+                    addListItemText("选择打印MAC标签！");
+                    if (this.cbSingle.Visible == true)
+                    {
+                        if (this.cbSingle.Checked == false)
+                        {
+                            this.cbSingle.Checked = true;
+                            this.cbMany.Checked = false;
+                        }
+                        this.cbMany.Visible = false;
+                        this.cbSingle.Visible = false;
+                    }
+                    break;
+                case "SN/EN标签":
+                    addListItemText("选择打印SN/EN标签！");
+                    if (this.cbSingle.Visible == false)
+                    {
+                        this.cbMany.Visible = true;
+                        this.cbSingle.Visible = true;
+                    }
+                    break;
+                case "箱号标签":
+                    addListItemText("选择打印箱号标签！");
+                    if (this.cbSingle.Visible == true)
+                    {
+                        if (this.cbSingle.Checked==false)
+                        {
+                            this.cbSingle.Checked = true;
+                            this.cbMany.Checked = false;
+                        }
+                        this.cbMany.Visible = false;
+                        this.cbSingle.Visible = false;
+                    }
+                    break;
             }
         }
 
