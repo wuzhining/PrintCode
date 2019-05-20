@@ -1,0 +1,65 @@
+1 09:00:21：正在连接服务器，请稍候...
+2 09:00:21：选择打印MAC标签！
+3 09:00:23：连接服务器失败！
+4 09:00:25：选择打印SN/EN标签！
+5 09:00:35：开始测试打印：{
+  "labName": "MACdfghjkgh.lab",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+6 09:00:36：接收到打印请求：{
+  "labName": "MACdfghjkgh.lab",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+7 09:00:36：检测到非en/sn标签打印请求，已忽略.
+8 09:01:06：开始测试打印：{
+  "labName": "ENdfghjkgh.lab",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+9 09:01:06：接收到打印请求：{
+  "labName": "ENdfghjkgh.lab",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+10 09:01:19：开始测试打印：{
+  "labName": "SNdfghjkgh.lab",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+11 09:01:19：接收到打印请求：{
+  "labName": "SNdfghjkgh.lab",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+100:54:12：1 正在连接服务器，请稍候...
+200:54:12：2 选择打印MAC标签！
+300:54:16：3 选择打印SN/EN标签！
+400:54:19：4 选择打印SN/EN标签！
+500:54:21：5 选择打印箱号标签！
+100:55:31：1 正在连接服务器，请稍候...
+200:55:31：2 选择打印MAC标签！
+300:55:52：3 连接服务器失败！
+100:56:07：1 正在连接服务器，请稍候...
+200:56:07：2 选择打印MAC标签！
+101:01:39：1 正在连接服务器，请稍候...
+201:01:39：2 选择打印MAC标签！
+301:01:44：3 选择打印SN/EN标签！
+401:01:57：4 开始测试打印：{
+  "labName": "sn",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+501:01:58：5 System.ArgumentException: 正在分析“(EN|SN)[A-Z0-9^._-\x22]+$”－ [x-y] 范围的顺序颠倒。
+   在 System.Text.RegularExpressions.RegexParser.ScanCharClass(Boolean caseInsensitive, Boolean scanOnly)
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 iplant_BarCodePrint.mainUI.BeforePirnt(Object data) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 146
+601:02:00：6 连接服务器失败！
+701:02:07：7 开始测试打印：{
+  "labName": "sn11122",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+801:02:07：8 System.ArgumentException: 正在分析“(EN|SN)[A-Z0-9^._-\x22]+$”－ [x-y] 范围的顺序颠倒。
+   在 System.Text.RegularExpressions.RegexParser.ScanCharClass(Boolean caseInsensitive, Boolean scanOnly)
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 iplant_BarCodePrint.mainUI.BeforePirnt(Object data) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 146
+901:02:18：9 开始测试打印：{
+  "labName": "en11122",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+1001:02:18：10 System.ArgumentException: 正在分析“(EN|SN)[A-Z0-9^._-\x22]+$”－ [x-y] 范围的顺序颠倒。
+   在 System.Text.RegularExpressions.RegexParser.ScanCharClass(Boolean caseInsensitive, Boolean scanOnly)
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 iplant_BarCodePrint.mainUI.BeforePirnt(Object data) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 146
+1101:02:44：11 开始测试打印：{
+  "labName": "en11122",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+1201:02:44：12 System.ArgumentException: 正在分析“(EN|SN)[A-Z0-9^._-\x22]+$”－ [x-y] 范围的顺序颠倒。
+   在 System.Text.RegularExpressions.RegexParser.ScanCharClass(Boolean caseInsensitive, Boolean scanOnly)
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 iplant_BarCodePrint.mainUI.BeforePirnt(Object data) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 146
+1301:02:56：13 选择打印MAC标签！
+1401:03:02：14 开始测试打印：{
+  "labName": "mac11122",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+1501:03:02：15 System.ArgumentException: 正在分析“SN_MAC{1,1}[A-Z0-9^._-\x22]+$”－ [x-y] 范围的顺序颠倒。
+   在 System.Text.RegularExpressions.RegexParser.ScanCharClass(Boolean caseInsensitive, Boolean scanOnly)
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 iplant_BarCodePrint.mainUI.BeforePirnt(Object data) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 138
+1601:03:12：16 开始测试打印：{
+  "labName": "sn_mac11122",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+1701:03:12：17 System.ArgumentException: 正在分析“SN_MAC{1,1}[A-Z0-9^._-\x22]+$”－ [x-y] 范围的顺序颠倒。
+   在 System.Text.RegularExpressions.RegexParser.ScanCharClass(Boolean caseInsensitive, Boolean scanOnly)
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 iplant_BarCodePrint.mainUI.BeforePirnt(Object data) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 138
+101:03:32：1 正在连接服务器，请稍候...
+201:03:32：2 选择打印MAC标签！
+301:03:35：3 选择打印SN/EN标签！
+401:03:42：4 开始测试打印：{
+  "labName": "sn112213",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+501:03:42：5 接收到打印请求：{
+  "labName": "sn112213",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+601:03:53：6 连接服务器失败！
+701:03:58：7 开始测试打印：{
+  "labName": "sn112213",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+801:03:58：8 接收到打印请求：{
+  "labName": "sn112213",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+101:04:03：1 正在连接服务器，请稍候...
+201:04:03：2 选择打印MAC标签！
+301:04:10：3 选择打印SN/EN标签！
+401:04:11：4 开始测试打印：{
+  "labName": "sn1231321",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+501:04:11：5 接收到打印请求：{
+  "labName": "sn1231321",
+  "copies": "3",
+  "barCodeList": [
+    {
+      "SN": "201903010722",
+      "MAC": "2057AF1380AC"
+    }
+  ]
+}
+101:07:51：1 正在连接服务器，请稍候...
+201:07:51：2 选择打印MAC标签！
+301:08:12：3 连接服务器失败！
+401:08:32：4 选择打印SN/EN标签！
+501:08:34：5 选择打印箱号标签！
+601:08:35：6 选择打印MAC标签！
+701:08:36：7 选择打印SN/EN标签！
+801:08:38：8 选择打印MAC标签！
+901:08:40：9 选择打印SN/EN标签！
+1001:08:42：10 选择打印箱号标签！
+1101:08:47：11 选择打印MAC标签！
+1201:08:48：12 选择打印SN/EN标签！
+1301:08:49：13 选择打印箱号标签！
+101:17:21：1 正在连接服务器，请稍候...
+201:17:21：2 选择打印MAC标签！
+301:17:25：3 选择打印SN/EN标签！
+401:17:26：4 选择打印箱号标签！

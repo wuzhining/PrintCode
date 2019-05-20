@@ -170,6 +170,7 @@
             this.btnPrintTest.TabIndex = 20;
             this.btnPrintTest.Text = "测试";
             this.btnPrintTest.UseVisualStyleBackColor = true;
+            this.btnPrintTest.Visible = false;
             this.btnPrintTest.Click += new System.EventHandler(this.btnPrintTest_Click);
             // 
             // btnClearLog
@@ -242,6 +243,7 @@
             this.tbLabName.Name = "tbLabName";
             this.tbLabName.Size = new System.Drawing.Size(120, 21);
             this.tbLabName.TabIndex = 28;
+            this.tbLabName.Visible = false;
             // 
             // mainUI
             // 
@@ -271,7 +273,7 @@
             this.Controls.Add(this.textBox_port);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainUI";
-            this.Text = "标签打印 V2.0.20181228";
+            this.Text = "标签打印 V3.0.20190514";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.closeingWindow);
             this.ResumeLayout(false);
             this.PerformLayout();

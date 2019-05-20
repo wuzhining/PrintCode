@@ -115,7 +115,9 @@ namespace iplant_BarCodePrint
                 }
                 catch (Exception ex)
                 {
-                    addListItemText(ex.ToString());
+                    addListItemText("与服务器断开连接...");
+                    this.bt_connectServer.Text = "连接";
+                    return;
                 }
             }
         }
@@ -129,36 +131,38 @@ namespace iplant_BarCodePrint
                 //copies = (int)obj["copies"];
                 JArray array = (JArray)obj["barCodeList"];
 
+                logCount++;
+                WriteLog("接收到打印请求：" + obj.ToString());
                 if (labName.Length > 0)
                 {
                     Regex regex = null;
                     switch (this.cbLabType.Text)
                     {
                         case "MAC标签":
-                            regex = new Regex(@"SN_MAC{1,1}[A-Z0-9^._\x22]+$", RegexOptions.IgnoreCase);
+                            regex = new Regex(@"SN_MAC{1,1}[A-Z0-9^._\-\x22]+$", RegexOptions.IgnoreCase);
                             if (!regex.IsMatch(labName))
                             {
                                 addListItemText("检测到非mac标签打印请求，已忽略.");
                                 return;
                             }
                             break;
-                        case "EN标签":
-                            regex = new Regex(@"(EN|SN)[A-Z0-9^._\x22]+$", RegexOptions.IgnoreCase);
+                        case "SN/EN标签":
+                            regex = new Regex(@"(EN|SN)[A-Z0-9^._\-\x22]+$", RegexOptions.IgnoreCase);
                             if (!regex.IsMatch(labName))
                             {
-                                addListItemText("检测到非en标签打印请求，已忽略.");
+                                addListItemText("检测到非en/sn标签打印请求，已忽略.");
                                 return;
                             }
                             //不包含字符串“mac”
                             regex = new Regex(@"^((?!mac).)*$");
                             if (!regex.IsMatch(labName))
                             {
-                                addListItemText("检测到非en标签打印请求，已忽略.");
+                                addListItemText("检测到非en/sn标签打印请求，已忽略.");
                                 return;
                             }
                             break;
                         case "箱号标签":
-                            regex = new Regex(@"^[en_mac{6}A-Z0-9^._\x22]+$", RegexOptions.IgnoreCase);
+                            regex = new Regex(@"^[en_mac{6}A-Z0-9^._\-\x22]+$", RegexOptions.IgnoreCase);
                             if (!regex.IsMatch(labName))
                             {
                                 addListItemText("检测到非箱号标签打印请求，已忽略.");
@@ -169,7 +173,8 @@ namespace iplant_BarCodePrint
                             addListItemText("未选择标签类型！");
                             return;
                     }
-                    addListItemText("接收到打印请求：" + obj.ToString());
+                    //addListItemText("接收到打印请求：" + obj.ToString());
+                    this.log.AppendText(logCount.ToString() + " " + System.DateTime.Now.ToLocalTime().ToString() + ":  " + "接收到打印请求：" + obj.ToString() + "\n");
                     this.unFinishLabCnt = array.Count;
                     updateUI();
                     PrintBarcode(array);
@@ -282,7 +287,7 @@ namespace iplant_BarCodePrint
         public void addListItemText(string msg)
         {
             logCount++;
-            WriteLog(logCount.ToString() + " " + msg);
+            WriteLog(msg);
             //Console.Write("{0}\n",msg);
             System.DateTime now = System.DateTime.Now;
             this.log.AppendText(logCount.ToString() + " " + now.ToLocalTime().ToString() + ":  " + msg + "\n");
@@ -353,7 +358,7 @@ namespace iplant_BarCodePrint
                 using (StreamWriter sw = File.AppendText(logPath))
                 {
 
-                    sw.WriteLine(logCount.ToString() + now.ToString("HH:mm:ss：") + msg);
+                    sw.WriteLine(logCount.ToString() + " " + now.ToString("HH:mm:ss：") + msg);
                     sw.Flush();
                     sw.Close();
                     sw.Dispose();

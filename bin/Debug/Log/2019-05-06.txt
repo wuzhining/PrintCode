@@ -1,0 +1,46 @@
+114:24:38：1 正在连接服务器，请稍候...
+214:24:39：2 选择打印MAC标签！
+314:24:39：3 服务器链接成功
+414:25:23：4 检测到非mac标签打印请求，已忽略.
+514:26:26：5 System.Threading.ThreadAbortException: 正在中止线程。
+   在 Microsoft.Win32.SafeNativeMethods.FormatMessage(Int32 dwFlags, IntPtr lpSource_mustBeNull, UInt32 dwMessageId, Int32 dwLanguageId, StringBuilder lpBuffer, Int32 nSize, IntPtr[] arguments)
+   在 System.ComponentModel.Win32Exception.TryGetErrorMessage(Int32 error, StringBuilder sb, String& errorMsg)
+   在 System.ComponentModel.Win32Exception.GetErrorMessage(Int32 error)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 95
+614:26:28：6 正在连接服务器，请稍候...
+714:26:28：7 服务器链接成功
+814:27:22：8 System.Net.Sockets.SocketException (0x80004005): 您的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 95
+914:27:23：9 正在连接服务器，请稍候...
+1014:27:23：10 服务器链接成功
+1114:27:49：11 System.Net.Sockets.SocketException (0x80004005): 您的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 95
+1214:27:50：12 正在连接服务器，请稍候...
+1314:27:50：13 服务器链接成功
+1414:28:05：14 System.Net.Sockets.SocketException (0x80004005): 您的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 95
+1514:28:05：15 正在连接服务器，请稍候...
+1614:28:05：16 服务器链接成功
+1714:30:01：17 检测到非mac标签打印请求，已忽略.
+1814:31:26：18 检测到非mac标签打印请求，已忽略.
+1914:43:02：19 检测到非mac标签打印请求，已忽略.
+2016:10:00：20 检测到非mac标签打印请求，已忽略.
+2118:08:09：21 检测到非mac标签打印请求，已忽略.
+2218:08:16：22 选择打印SN/EN标签！
+2318:08:36：23 选择打印SN/EN标签！
+2418:08:39：24 选择打印MAC标签！
+2518:08:58：25 检测到非mac标签打印请求，已忽略.
+2618:09:03：26 选择打印SN/EN标签！
+2718:09:11：27 检测到非en标签打印请求，已忽略.
+2818:56:13：28 System.Net.Sockets.SocketException (0x80004005): 您的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   在 iplant_BarCodePrint.mainUI.recvMsg(Object obj) 位置 e:\share\iplant_BarCodePrint_new\main.cs:行号 95
