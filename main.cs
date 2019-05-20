@@ -154,7 +154,7 @@ namespace iplant_BarCodePrint
                                 return;
                             }
                             //不包含字符串“mac”
-                            regex = new Regex(@"^((?!mac).)*$");
+                            regex = new Regex(@"^((?!mac).)*$", RegexOptions.IgnoreCase);
                             if (!regex.IsMatch(labName))
                             {
                                 addListItemText("检测到非en/sn标签打印请求，已忽略.");
@@ -162,7 +162,7 @@ namespace iplant_BarCodePrint
                             }
                             break;
                         case "箱号标签":
-                            regex = new Regex(@"^[en_mac{6}A-Z0-9^._\-\x22]+$", RegexOptions.IgnoreCase);
+                            regex = new Regex(@"^en_mac[A-Z0-9^._\-\x22]+$", RegexOptions.IgnoreCase);
                             if (!regex.IsMatch(labName))
                             {
                                 addListItemText("检测到非箱号标签打印请求，已忽略.");
