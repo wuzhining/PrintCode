@@ -101,3 +101,4 @@ E:\share\iplant_BarCodePrint_new\bin\Debug\Interop.LabelManager2.dll
 E:\share\iplant_BarCodePrint_new\obj\Debug\iplant_BarCodePrint.mainUI.resources
 E:\share\iplant_BarCodePrint_new\obj\Debug\CodePrint.Properties.Resources.resources
 E:\share\iplant_BarCodePrint_new\obj\Debug\codePrint.csproj.GenerateResource.Cache
+E:\share\iplant_BarCodePrint_new\obj\Debug\codePrint.csprojResolveAssemblyReference.cache

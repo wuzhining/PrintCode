@@ -170,7 +170,6 @@
             this.btnPrintTest.TabIndex = 20;
             this.btnPrintTest.Text = "测试";
             this.btnPrintTest.UseVisualStyleBackColor = true;
-            this.btnPrintTest.Visible = false;
             this.btnPrintTest.Click += new System.EventHandler(this.btnPrintTest_Click);
             // 
             // btnClearLog
@@ -243,7 +242,6 @@
             this.tbLabName.Name = "tbLabName";
             this.tbLabName.Size = new System.Drawing.Size(120, 21);
             this.tbLabName.TabIndex = 28;
-            this.tbLabName.Visible = false;
             // 
             // mainUI
             // 
